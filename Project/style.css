@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    box-sizing:border-box;
+}
+
+
+.navbar{
+    position:fixed;
+    background-color:transparent;
+    width:100%;
+    padding:30px 0;
+    top:0;
+    z-index:100;
+    line-height:20px;
+
+}
+.inner-width{
+    max-width:1300px;
+    margin:auto;
+    padding:0 40px;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+
+}
+.logo{
+    position:relative;
+    top:30px;
+    font-size:70px;
+    letter-spacing:3px;
+    font-weight:500;
+    font-family: 'Sacramento', cursive;
+    color:#fff;
+    cursor: pointer;
+}
+.logo span{
+    font-size: 55px;
+    color:#9a533d;
+}
+.navbar-menu{
+    font-size:13px;
+    font-weight:500;
+    font-family:'Raleway',sans-serif;
+    color:silver;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    margin-left: 12px;
+    display:inline-block;
+    word-spacing:6px;
+
+}
+.navbar-menu::after{
+    content:'';
+    display:block;
+    width:0;
+    height:1.8px;
+    background-color:#846445;
+    transition:width .3s;
+}
+navbar-menu:hover::after{ 
+    width:100%;
+}
+.a1{
+    color:white;
+}
+.a2{
+    color:white;
+}.a3{
+    color:white;
+}.a4{
+    color:white;
+}
+.a1:hover{
+    text-decoration: underline;
+    margin-left: 12px;
+    font-weight: bold;
+}
+.a2:hover{
+    text-decoration: underline;
+    margin-left: 12px;
+   font-weight: bold;
+
+}
+.a3:hover{
+    text-decoration: underline;
+    margin-left: 12px;
+    font-weight: bold;
+}
+.a4:hover{
+    text-decoration: underline;
+    margin-left: 12px;
+    font-weight: bold;
+}
+#home{
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.content1{
+    color:rgb(227, 181, 72);
+}
+.content2{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.4)),url("3362082.jpg");
+    background-size: cover;
+    font-size: 15px;
+    font-family: Sacramento,cursive;
+}
+
+.content1 .content{
+    padding:20px;
+    position:absolute;
+    left: 1028px;
+    top: 600px;
+    text-align: right;
+    width:500px;
+    height:317px;
+    font-family: 'Sacramento',sans-serif;
+    color:#fff;
+    font-size: 20px;
+}
+.content1 .extra{
+    padding:50px;
+    color:#000;
+    font-weight: 300px;
+    position:absolute;
+    left:100px;
+    top:165px;
+    font-family: 'Sacramento',sans-serif;
+    font-size: 45px;
+}
+.content1 .know{
+    position:relative;
+    left:300px;
+
+}
+.do{
+    color:antiquewhite;
+    text-decoration-line: underline;
+}
+.content1 .very{
+    padding:20px;
+    position:fixed;
+    left: 400px;
+    top: 493px;
+    text-align: rcenter;
+    width:500px;
+    height:250px;
+    background-color:#ca9150;
+    font-family: 'Bitter', serif;
+    color:black;
+    font-size: 15px;
+
+}
+body{
+    background-color: #ebbb85;
+}
+.content p{
+    font-size:15px;
+    line-height:25px;
+    font-weight:500;
+    letter-spacing:1.1px;
+    font-family:'Raleway',sans-serif;
+}
+.very button{
+    padding:17px 25px;
+    margin-top:30px;
+    background-color:rgb(241, 181, 108);
+    border:none;
+    color:#000;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:1.2px;
+    font-family:'Raleway',sans-serif;
+    outline:none;
+    cursor:pointer;
+    text-transform:uppercase;
+    transition:.3s;
+}
+.very button:hover{
+    color:#fff;
+}
+.social-container{
+    position:absolute;
+    left:40px;
+    bottom:30%;
+}
+
+.social-icons li{
+    list-style-type: none;
+    margin:35px 0;
+}
+.social-icons li i{
+    color:rgba(255,255,255,0.77);
+    font-size:20px;
+}
+.social-icons li i:hover{
+    transform:scale(1.5);
+    color:#846445;
+    transition:all .2s ease-in-out;
+}
+.social-icons::before{
+    content:'';
+    position:absolute;
+    display:block;
+    width:1px;
+    height:150px;
+    top:-170px;
+    left:8px;
+    background-color:black;
+
+}
+.social-icons::after{
+    content:'';
+    position:absolute;
+    display:block;
+    width:1px;
+    height:150px;
+    bottom:-170px;
+    left:8px;
+    background-color:black;
+
+}
+
+.content2 .v{
+    position:absolute;
+    left:435px;
+    top:320px;
+    font-size:110px;
+    font-family:'Raleway',sans-serif;
+    font: weight 500px; 
+    color:black;
+    letter-spacing: 8px;
+}
+.content2 .v span{
+    color:white;
+
+}
